@@ -264,6 +264,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &655367651 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1169541632809496, guid: 466938a2b5043cc4cb4985202c4c48bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 1896653003}
+--- !u!65 &655367654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 655367651}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.62, z: 1}
+  m_Center: {x: 0, y: 1.13, z: 0}
 --- !u!1 &1004773420
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,7 +804,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4131107997598996, guid: 466938a2b5043cc4cb4985202c4c48bd, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.18
+      value: -0.257
       objectReference: {fileID: 0}
     - target: {fileID: 4131107997598996, guid: 466938a2b5043cc4cb4985202c4c48bd, type: 2}
       propertyPath: m_LocalPosition.z
@@ -839,6 +856,7 @@ Prefab:
       propertyPath: cameraSensitivity
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 136708832422441810, guid: 466938a2b5043cc4cb4985202c4c48bd, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 466938a2b5043cc4cb4985202c4c48bd, type: 2}
   m_IsPrefabAsset: 0
