@@ -13,12 +13,12 @@ public class PlayerMovement : MonoBehaviour
 
     public Camera cam;
     public GameObject playerBody;
-    public bool invertXAxis = false;
-    public bool invertYAxis = true;
+    public bool invertXAxis = false; //Invert values for camera X axis
+    public bool invertYAxis = true; //Invert values for camera Y axis
 
-    public float walkSpeed = 1;
-    public float cameraSensitivity = 1;
-    public float headBob = 1;
+    public float walkSpeed = 1; //Walk Speed in Meters per Second
+    public float cameraSensitivity = 1; //Multiplyer for how fast to move Camera
+    public float headBob = 1; //Altitude for camera z movement while walking (not implemented)
 
 
     void Start()
