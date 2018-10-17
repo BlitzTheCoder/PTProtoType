@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -130,7 +130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &25425984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -443,38 +443,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &655367651 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1169541632809496, guid: 466938a2b5043cc4cb4985202c4c48bd,
-    type: 2}
-  m_PrefabInternal: {fileID: 1896653003}
---- !u!65 &655367654
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 655367651}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1.62, z: 1}
-  m_Center: {x: 0, y: 1.13, z: 0}
---- !u!54 &655367655
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 655367651}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!1 &919426246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,33 +1165,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4131107997598996, guid: 466938a2b5043cc4cb4985202c4c48bd, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 114627809503308330, guid: 466938a2b5043cc4cb4985202c4c48bd,
-        type: 2}
-      propertyPath: walkSpeed
-      value: 1.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 4953391600724954, guid: 466938a2b5043cc4cb4985202c4c48bd, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4953391600724954, guid: 466938a2b5043cc4cb4985202c4c48bd, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4953391600724954, guid: 466938a2b5043cc4cb4985202c4c48bd, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114627809503308330, guid: 466938a2b5043cc4cb4985202c4c48bd,
-        type: 2}
-      propertyPath: cameraSensitivity
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 136708832422441810, guid: 466938a2b5043cc4cb4985202c4c48bd, type: 2}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 466938a2b5043cc4cb4985202c4c48bd, type: 2}
   m_IsPrefabAsset: 0
