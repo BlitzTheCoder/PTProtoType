@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class RayCast : MonoBehaviour {
 
-	
-	void Update ()
+    GameObject hitObject;
+
+    void Update ()
     {
         CastRay();
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            ViewItem v = new ViewItem(hitObject);
+        }
     }
 
     /// <summary>
@@ -17,6 +23,8 @@ public class RayCast : MonoBehaviour {
     {
         
         RaycastHit hit;
+
+        
         
         // The distance at which the other object is when hit.
         float theDistance;
@@ -36,6 +44,8 @@ public class RayCast : MonoBehaviour {
                 theDistance = hit.distance;
 
                 print(theDistance + " " + hit.collider.gameObject.name);
+
+                hitObject = hit.collider.gameObject;
             }
         }
     }
